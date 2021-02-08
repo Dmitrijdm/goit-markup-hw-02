@@ -1,0 +1,196 @@
+:root {
+  --white-text: #ffffff;
+  --white-text-op60: rgba(255, 255, 255, 0.6);
+  --black-text: #212121;
+  --blue-text: #2196f3;
+  --gray-text: #757575;
+
+  --back-white: #ffffff;
+  --back-light-gray: #e5e5e5;
+  --back-dark: #2f303a;
+  --button-blue: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+
+/* font-family: 'Raleway', sans-serif; */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* хэдер!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.header-page {
+  background-color: var(--back-white);
+}
+
+.nav-logo {
+  color: var(--blue-text);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.nav-logo span {
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link {
+  color: var(--black-text);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--blue-text);
+}
+
+.nav-link:focus {
+  color: var(--blue-text);
+}
+
+a {
+  text-decoration: none;
+}
+
+.contacts-link {
+  color: var(--gray-text);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--blue-text);
+}
+
+/* секция герой!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.hero {
+  background-color: var(--back-dark);
+}
+
+.hero-title {
+  color: var(--white-text);
+  font-weight: 900;
+  text-align: center;
+}
+
+.hero-btn {
+  background-color: var(--button-blue);
+  border: none;
+}
+
+.hero-btn a {
+  color: var(--white-text);
+}
+
+/* секция наши преимущества */
+.section {
+  background-color: var(--back-light-white);
+}
+
+.list-title {
+  color: var(--black-text);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.list-title-content {
+  color: var(--gray-text);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-title {
+  color: var(--black-text);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* секция наша команда!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.team {
+  background-color: var(--back-light-gray);
+}
+
+.team-member {
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.prof {
+  color: var(--gray-text);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* футер!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.footer {
+  background-color: var(--back-dark);
+}
+
+.footer span {
+  color: var(--white-text);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  font-family: 'Raleway', sans-serif;
+}
+
+.link-adress {
+  color: var(--white-text);
+}
+
+.link-contacts {
+  color: var(--white-text-op60);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* портфолио!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.page {
+  background-color: var(--back-light-white);
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  background-color: var(--back-light-gray);
+  color: var(--black-text);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--button-blue);
+  color: var(--white-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.project-title {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.service {
+  color: var(--gray-text);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+}
