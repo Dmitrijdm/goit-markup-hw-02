@@ -81,6 +81,7 @@ a {
 .hero-btn {
   background-color: var(--button-blue);
   border: none;
+  color: var(--white-text);
 }
 
 .hero-btn a {
@@ -162,6 +163,20 @@ a {
 .page {
   background-color: var(--back-light-white);
   font-family: 'Roboto', sans-serif;
+}
+
+.service-nav {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .btn {
